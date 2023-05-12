@@ -1,0 +1,35 @@
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul#main li{
+    float: left;
+    position: relative;
+    width: 150px;
+}
+
+ul#main li ul{
+    display: none;
+    position: absolute;
+    left: 0;
+    top:40px;
+}
+
+ul li a{
+    display: block;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    background-color: rgb(14, 100,212);
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+ul li a:hover{
+    background-color: rgb(11, 73, 153);
+}
+ul#main li:hover ul{
+    display: block;
+}
